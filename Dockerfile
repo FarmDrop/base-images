@@ -15,3 +15,4 @@ RUN apt-get update -qq && \
 
 RUN gem update --system 2.6.10
 RUN gem install bundler -v 1.14.4
+RUN bundle config github.https true
