@@ -13,5 +13,5 @@ RUN apt-get update -qq && \
       && apt-get clean \
       && rm -rf /var/lib/apt/lists/*
 
-RUN gem update --system 2.6.8
-RUN gem install bundler -v 1.13.6
+RUN gem update --system 2.6.10
+RUN gem install bundler -v 1.14.4
